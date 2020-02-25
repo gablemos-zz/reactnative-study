@@ -8,6 +8,8 @@ import {
   StatusBar,
 } from 'react-native'
 
+import './config/ReactotronConfig'
+
 import {
   Header,
   LearnMoreLinks,
@@ -54,6 +56,8 @@ const styles = StyleSheet.create({
     textAlign: 'right',
   },
 })
+
+console.tron.warn('Hello World')
 
 export default function App() {
   return (
