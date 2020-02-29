@@ -50,6 +50,8 @@ module.exports = {
     ],
     "semi": [2, "never"],
     'react/state-in-constructor': "off",
-    'react/static-property-placement': "off"
+    'react/static-property-placement': "off",
+    'react/sort-comp': "off",
+    'react/no-typos': "off"
   },
 };
